@@ -7,7 +7,6 @@ public class Main {
         TV TV1 = new TV (55, false, 15, "black", 2, true, 27, 60);
         TV TV2 = new TV (43, false, 10, "white", 1, false, 23, 144);
         TV2.on();
-        System.out.println(TV1);
         TV1.toString();
         /*
         System.out.println ("Цвет телевизора ТВ1: " + TV1.color);
