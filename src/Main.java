@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class Main {
     static Fridge[] ArrayFR = new Fridge[3];
     static TV[] ArrayTV = new TV[4];
@@ -17,11 +15,11 @@ public class Main {
         ArrayMW[0] = new Microwave(100, true, 25, "white", 10, true, true, "360");
         ArrayMW[1] = new Microwave(100, true, 25, "white", 10, true, true, "360");
         ArrayTV[0].on();
-        ArrayTV[0].toString();
-        System.out.println ("Цвет телевизора ТВ1: " + ArrayTV[1].color);
+        ArrayFR[0].toString();
+        /*System.out.println ("Цвет телевизора ТВ1: " + ArrayTV[1].color);
         System.out.println ("Включен ли ТВ2: " + ArrayTV[1].getState());
         System.out.println ("Энергопотребление МВ1: " + ArrayMW[1].energy_consumption);
         System.out.println ("Все включенные электроприборы потребляют (" + total + ") Ватт");
-        System.out.println ("Уровень шума у ФР1: " + ArrayFR[0].energy_consumption);
+        System.out.println ("Уровень шума у ФР1: " + ArrayFR[0].energy_consumption);*/
     }
 }
