@@ -2,7 +2,7 @@ public class TV extends Living_room {
     public double diagonal;
     public int refresh_rate;
 
-    public String toString () {
+    public String toStringTV () {
         return "Робит";
     }
 
