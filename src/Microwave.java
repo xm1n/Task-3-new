@@ -11,7 +11,7 @@ public class Microwave extends Kitchen {
         System.out.println (grill);
         System.out.println (door_type);
     }
-    public String toStringMW () {
+    public String toString () {
         return "Робит";
     }
     public Microwave (double energy_consumption, boolean isOn, double weight, String color, double noise_level, boolean remote_control, boolean grill, String door_type) {

@@ -1,9 +1,9 @@
 public class TV extends Living_room {
     public double diagonal;
     public int refresh_rate;
-
-    public String toStringTV () {
-        return "Робит";
+    
+    public String toString () {
+        return "Робит" + super.toString();
     }
 
     public TV (double energy_consumption, boolean isOn, double weight, String color, double power_cord_length, boolean bluetooth_support, double diagonal, int refresh_rate) {

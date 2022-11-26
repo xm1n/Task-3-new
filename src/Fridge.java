@@ -11,7 +11,7 @@ public class Fridge extends Kitchen {
         System.out.println (freezers_qty);
         System.out.println (volume);
     }
-    public String toStringFR () {
+    public String toString () {
         return "Робит";
     }
     public Fridge (double energy_consumption, boolean isOn, double weight, String color, double noise_level, boolean remote_control, int freezers_qty, double volume) {
