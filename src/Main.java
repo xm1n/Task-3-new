@@ -30,6 +30,6 @@ public class Main {
                 total += ArrayTV[i].energy_consumption;
             }
         }
-        System.out.println(total);
+        System.out.println("Включенные приборы потребляют " + total + " Ватт");
     }
 }
